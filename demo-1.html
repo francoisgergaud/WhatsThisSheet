@@ -1,0 +1,16 @@
+<html>
+    <head></head>
+        <script type="module">
+            import { WhatsThisSheet } from "./build/whats-this-sheet.js";
+            window.addEventListener('load', (event) => {
+                new WhatsThisSheet(document.getElementById("spreadsheets"));
+            });
+        </script>
+    </head>
+    <body>
+
+        <div id="spreadsheets">
+
+        </div>
+    </body>
+</html>
